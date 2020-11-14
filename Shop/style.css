@@ -1,0 +1,226 @@
+* {	margin: 0px;
+	padding: 0px;
+
+}
+
+.body{
+	font-family: 'Titillium Web', sans-serif;
+
+}
+.menu-bar{
+	background: rgb(247, 5, 5);
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #ffff;
+	margin-bottom: 2px;
+
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 12px;
+	padding:12px;
+}
+.menu-bar ul li a{
+
+	color: #fff;
+	text-decoration: none;
+}
+.menu-bar ul li:hover{
+	background: #479aa8;
+}
+.menu-bar .fa{
+	margin-right: 8px;
+}
+.menu-bar .healthcaresubmenu1{
+	display: none;
+}
+.menu-bar ul li:hover .healthcaresubmenu1{
+	display: block;
+	position: absolute;
+	visibility:visible;
+	z-index: 100;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -22px;
+
+
+}
+.menu-bar ul li:hover .healthcaresubmenu1 a{
+	color:#333333;
+
+}
+.menu-bar ul li:hover .healthcaresubmenu1 ul li{
+	width: 250px;
+	padding: 10px;
+	border-right: 1px solid #F7F7F7;
+}
+.menu-bar ul li:hover .healthcaresubmenu1 ul li:hover{
+	background: #F7F7F7;
+}
+.menu-bar .healthcaresubmenu1 .sawsubmenu1{
+	display: none;
+}
+.menu-bar ul li:hover .healthcaresubmenu1 .sawsubmenu1{
+	display: block;
+	position:absolute;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -22px;
+
+}
+.menu-bar .healthcaresubmenu1 .sawsubmenu1 ul{
+	display: block;
+}
+.menu-bar .healthcaresubmenu1 .daosubmenu1{
+	display: none;
+}
+.menu-bar ul li:hover .healthcaresubmenu1 .daosubmenu1{
+	display: block;
+	position: absolute;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -22px;
+	}
+.menu-bar .healthcaresubmenu1 .daosubmenu1 ul{
+	display: block;
+
+}
+.menu-bar .healthcaresubmenu1 .mansubmenu1{
+	display: none;
+}
+.menu-bar ul li:hover .healthcaresubmenu1 .mansubmenu1{
+	display: block;
+	position: absolute;
+	background: #fff;
+	margin-top: 15px;
+	margin-left: -22px;
+}
+
+.menu-bar .healthcaresubmenu1 .mansubmenu1 ul{
+	display: block;
+}
+.fpcategories{
+	margin: 30px 0px;
+}
+.fpcategories .col-3{
+	flex-basis: 25%;
+	min-width: 250px;
+	padding: 10px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.fpcategories .col-3 img{
+	width: 100%;
+	height: 200px;
+}
+.small-container{
+max-width: 1080px;
+margin:auto;
+padding-left: 25px;
+padding-right: 25px;
+
+}
+.fpcategories .title{
+text-align: center;
+margin: 0 0 40px;
+position: relative;
+line-height: 60px;
+color: #555;
+}
+.fpcategories .title::after{
+	content:'';
+	background: #ff523b;
+	height: 5px;
+	width: 80px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.fpcategories  h4{
+	font-weight: normal;
+	color: green;
+}
+.fpcategories .col-3 p{
+	font-size: 14px;
+}
+.fpcategories .fa{
+	color:#ff523b;
+}
+.fpcategories .col-3:hover{
+	transform: translateY(-5px);
+}
+.signupform{
+	width: 350px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	background: #fff;
+	padding: 20px;
+	margin: 5% auto 5%;
+
+}
+.signupform h1{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+.signupform .input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+.signupform button{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.signupform .sign-btn{
+	background-color: #1c8adb;
+
+}
+.signupform .twitter-btn{
+	background-color: #21afde;
+
+}
+a{
+	text-decoration: none;
+}
+hr{
+	margin-top: 20px;
+	width: 80%;
+}
+.or{
+	background: #fff;
+	width: 30px
+	margin: 0px auto 0px;
+}
+.signupform img{
+	width: 70px;
+	margin-top: -50px;
+	text-align:center;
+	margin-left: 100px;
+	margin-bottom: 20px;
+
+	border-radius: 50%;
+
+	display:block;
+	padding: 10px;
+	background-color: #21afde;
+}
+
+.footer{
+	margin-top: 50px;
+	background-color: rgb(255, 0, 0);
+	color: #ffff;
+}
